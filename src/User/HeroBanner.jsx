@@ -14,7 +14,7 @@ const HeroBanner = () => {
   const NextArrow = ({ onClick }) => (
     <button
       onClick={onClick}
-      className="hidden sm:flex absolute top-1/2 right-5 transform -translate-y-1/2 text-white bg-[#242424] bg-opacity-70 rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300 shadow-lg"
+      className="hidden sm:flex absolute top-1/2 right-5 transform -translate-y-1/2 text-white bg-[#242424] bg-opacity-70 rounded-full w-10 h-10 items-center justify-center z-10 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300 shadow-lg"
     >
       <FaChevronRight size={18} />
     </button>
@@ -23,7 +23,7 @@ const HeroBanner = () => {
   const PrevArrow = ({ onClick }) => (
     <button
       onClick={onClick}
-      className="hidden sm:flex absolute top-1/2 left-5 transform -translate-y-1/2 text-white bg-[#242424] bg-opacity-70 rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300 shadow-lg"
+      className="hidden sm:flex absolute top-1/2 left-5 transform -translate-y-1/2 text-white bg-[#242424] bg-opacity-70 rounded-full w-10 h-10 items-center justify-center z-10 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300 shadow-lg"
     >
       <FaChevronLeft size={18} />
     </button>

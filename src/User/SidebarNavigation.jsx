@@ -50,8 +50,10 @@ const Navigation = ({ user, onLoginClick, onRegisterClick, onLogout }) => {
         <div className="flex items-center space-x-3">
           {user ? (
             <>
-              <span className="text-sm">€{user.balance.toFixed(2)}</span>
-              <span className="text-sm">{`Hello, ${user.username}`}</span>
+              <span className="hidden md:flex text-sm">
+                €{user.balance.toFixed(2)}
+              </span>
+              <span className="hidden md:flex text-sm">{`Hello, ${user.username}`}</span>
               <button
                 onClick={onLogout}
                 className="bg-red-500 px-4 py-2 rounded-md text-sm hover:bg-red-400"
